@@ -1,4 +1,4 @@
-import AddonDocsRouter, {docsRoute} from 'ember-cli-addon-docs/router';
+import AddonDocsRouter, { docsRoute } from 'ember-cli-addon-docs/router';
 import config from './config/environment';
 
 export default class Router extends AddonDocsRouter {
@@ -16,8 +16,6 @@ Router.map(function () {
     // this.route('position');
     // this.route('disabled');
     // this.route('overlays');
-
-
   });
-  this.route('not-found', { path: '/*path' });
+  // this.route('not-found', { path: '/*path' });
 });
